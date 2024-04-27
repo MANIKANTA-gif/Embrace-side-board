@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Details</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <div class="product-details">
+        <div class="product-image">
+            <img src="https://th.bing.com/th/id/R.b69601404be63cdf000a59d5dc8f33b2?rik=h1oxqX7RwEi7gg&riu=http%3a%2f%2fimg.shein.com%2fimages%2fshein.com%2f201603%2f1459235191809682912.jpg&ehk=Opl8xQ4fPhjGWWy4%2bBa6oKSiwyeHlXtI7FybLPakXLs%3d&risl=&pid=ImgRaw&r=0" alt="Product Image">
+        </div>
+        <div class="product-info">
+            <p class="product-vendor">Marmeto</p>
+            <h1 class="product-title">Embrace SideBoard</h1><hr>
+            <p class="price"><strong>$12999.00</strong><sup><strong> <span style="color: rgb(196, 144, 100);">33% off</span></strong></sup></p>
+            <p class="compare-at-price"><del>$19999.00</del></p>
+            <hr>
+            <p style="margin-top: 20px; margin-bottom: 10px;">Choose a color</p>
+            <div class="selectors">
+                <div class="color-select">
+                    <label for="color-yellow">
+                        <input type="radio" id="color-yellow" name="color" value="#ffd700">
+                        <span class="color-box" style="background-color: #ffd700;"></span>
+                    </label>
+                    <label for="color-red">
+                        <input type="radio" id="color-red" name="color" value="#ff0000">
+                        <span class="color-box" style="background-color: #ff0000;"></span>
+                    </label>
+                    <label for="color-green">
+                        <input type="radio" id="color-green" name="color" value="#008000">
+                        <span class="color-box" style="background-color: #008000;"></span>
+                    </label>
+                    <label for="color-purple">
+                        <input type="radio" id="color-purple" name="color" value="#800080">
+                        <span class="color-box" style="background-color: #800080;"></span>
+                    </label>
+                </div>
+                <hr>
+                <p style="margin-top: 20px; margin-bottom: 10px;">Choose a size</p>
+                <div class="size-select">
+                    <input type="radio" id="size-small" name="size" value="small">
+                    <label for="size-small">Small</label>
+                    <input type="radio" id="size-medium" name="size" value="medium">
+                    <label for="size-medium">Medium</label>
+                    <input type="radio" id="size-large" name="size" value="large">
+                    <label for="size-large">Large</label>
+                    <input type="radio" id="size-xl" name="size" value="xl">
+                    <label for="size-xl">XL</label>
+                    <input type="radio" id="size-xxl" name="size" value="xxl">
+                    <label for="size-xxl">XXL</label>
+                </div>
+                <input style="border-radius: 25px; border: 1px;" type="number" id="quantity-select-input" value="1" min="1">
+                <button class="add-to-cart-btn" style="border-radius: 25px;">Add to Cart</button>
+            </div>
+           
+            
+            <p class="cart-message">Product added to cart</p>
+            <hr style="margin-top: 20px;">
+            <p class="description">The Embrace Sideboard is a stylish wear. With a top cloth designed to provide superior protection and look great, this storage solution is both functional and attractive. It fits seamlessly into any home decor, with clean lines and a timeless look. Crafted from premium materials for a combination of style, durability, and reliability.</p>
+            
+        </div>
+    </div>
+    <div class="thumbnail-images">
+        <img src="https://th.bing.com/th/id/OIP.5QQKfbdpH4GooegY1QyBVwHaJ3?pid=ImgDet&w=474&h=631&rs=1" alt="Thumbnail 1" width="80px" height="60px">
+        <img src="https://th.bing.com/th/id/OIP.4T1tU3B44gM19XOCDWqSsQHaJ3?pid=ImgDet&w=474&h=631&rs=1" alt="Thumbnail 2" width="80px" height="60px">
+        <img src="https://th.bing.com/th/id/OIP.9h8FjrRbCRHFdIfULJMULQHaJ3?pid=ImgDet&w=474&h=631&rs=1" alt="Thumbnail 3" width="80px" height="60px">
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
